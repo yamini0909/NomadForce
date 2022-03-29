@@ -1,0 +1,346 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.header-conatine{
+    position: relative;
+    overflow: hidden;
+}
+
+.text-header{
+    position: absolute;
+    z-index: 9;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    text-align: center;
+}
+.nomad-force-heading{
+ font-weight: 900;
+ font-size: 72px;
+}
+.nomad-sub-heading{
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.nomad-force-heading ,.nomad-sub-heading{
+    color: white;
+}
+.img-header{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    z-index: -100;
+}
+.header-yellow-bg{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.nav-sticky{
+    height: 76px;
+    position: relative;
+    bottom: 76px;
+
+}
+.nav-bar{
+    z-index: 9;
+    right: 0;
+    left: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 1280px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.bg-white-grey-shadow{
+    background-color: #f8f9fa!important;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+.nav-bar-conatiner{
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conatiner-group-nav{
+    display: flex!important;
+    flex-basis: auto;
+    flex-grow: 1;
+    align-items: center;
+    
+}
+.nav-bar-nomad{
+    text-decoration: none;
+    margin-right: 200px;
+    margin-left: 100px;
+}
+.nomad-force-nav{
+    margin: 0px 20px;
+    color: #ffc107;
+   
+}
+.home ,.studio ,.portfolio ,.news-and-event ,.contact{
+    margin: 0px 20px;
+    color: #717275;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    
+}
+.content-sample{
+    margin: 0 60px;
+}
+.create-sample-heading{
+    font-size: 50px;
+    font-weight: 900;
+}
+.sample-text{
+    display: flex;
+}
+.right-sample-text ,.left-sample-text{
+    padding: 10px;
+}
+.our-studio-container{
+    display: grid;
+   grid-template-columns:  1.3fr 1fr 1.8fr;
+   grid-template-rows: 1fr;
+}
+.img-fit{
+    width: 100%;
+    height: 100%;
+    max-height: 335px;
+    min-height: 275px;
+    object-fit: cover;
+}
+.office-quote{
+    padding: 10px;
+    background-color: #212529;
+    color: white;
+}
+.thinkers{
+    font-weight: 600;
+    font-size: 36px;
+}
+.experience-txt ,.read-news-txt,.work-with-us-txt{
+    font-weight: 100;
+    font-weight: 10px;
+}
+.portfolio-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 0.5fr;
+    padding: 50px 100px;
+    grid-column-gap: 30px;
+    grid-row-gap: 10px;
+}
+.port-heading{
+    text-align: center;
+    margin-top: 50px;
+}
+.effortless-img{
+    max-height: 300px;
+    min-height: 300px;
+    object-fit: cover; 
+ } 
+ .health-container{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    padding: 20px;
+ }
+ .maki-container{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    padding: 20px;
+    
+ }
+.effortless-container{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 20px;
+  
+}
+.gig-container{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    padding: 20px;
+    
+}
+.pth{
+    font-size: 30px;
+    font-weight: 800;
+    padding: 10px 0;
+}
+.pths{
+    font-weight: 200;
+    padding: 10px 0;
+}
+.news-conatiner{
+    background-color: #f9f9f9;
+    padding: 80px 30px;
+}
+
+.news-event-heading{
+    font-weight: 900;
+    text-align: center;
+    margin: 40px 0;
+    font-size: 40px;
+}
+.news-event-content{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+.news-rightside-content{
+    margin: 20px;
+    padding: 10px;
+}
+.job-opp-first ,.job-opp-second{
+margin: 20px 10px;
+padding: 10px 0;
+}
+.job-opp-first ,.job-opp-second{
+    display: flex;
+}
+.news-txt-subheading{
+    color: #565758;
+    font-size: 24px;
+    font-weight: 600;
+}
+.time-news{
+    color:#6c757d ;
+    font-weight: 300;
+}
+.mrg20{
+    margin: 0 40px;
+}
+.job-content {
+    color: #565758;
+    font-size: 25px;
+    font-weight: 700;
+}
+.location-news-event{
+    color: #565758;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.flex-text{
+    padding: 0 20px;
+}
+.contact-conatiner{
+    margin: 3rem 21rem;
+}
+.contact-heading{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+}
+.contact-form{
+margin-top: 2rem;
+}
+.flex-name-mail{
+    display: flex;   
+}
+.name{
+ margin-right: 30px;
+}
+.name ,.e-mail{
+    padding: 10px;
+    width: 18rem;  
+}
+.mar-2{
+    margin: 2rem 0;
+}
+.msg{
+   padding-top: 10px;
+   padding-bottom: 10rem;
+   padding-left: 10px;
+    width: 40rem;
+}
+.name-input{
+    margin: 10px 0;
+    color: #717275;
+    font-weight: 700;
+}
+.service-heading{
+    font-weight: 700;
+    color: #717275;
+    margin-bottom: 10px;
+}
+.checkbox-service{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.submit-btn{
+    margin: 40px 0;
+    text-align: center;
+}
+.btn-send{
+    background: black;
+    border: none;
+    border-radius: 100px;
+    color: #FFFFFF;;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 20px;
+    width: 15rem;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px 60px;
+  display: block;
+}
+.footer-heading{
+    display: flex;
+}
+.location-icon{
+   padding: 17px;
+}
+.noida{
+    font-weight: 500;
+}
+.footer-subheading{
+margin: 10px 0;
+font-size: 15px;
+font-weight: 100;
+}
+.copyrights-icons{
+    display: flex;
+    justify-content: space-between;
+}
+.copyright{
+    margin: 10px 0;
+    font-size: 15px;
+    font-weight: 100;
+}
+.bi-geo-alt{
+    margin: 14px 8px 0 0 ;
+}
+.icons{
+    display: flex;
+}
+.cm-10{
+    margin: 0 10px;
+}
+
+/* animate */
+.sample-text{
+    --animate-delay: 5s;
+}
